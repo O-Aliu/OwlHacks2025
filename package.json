@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@huggingface/inference": "^4.9.0",
+    "firebase": "^12.3.0"
+  }
+}
