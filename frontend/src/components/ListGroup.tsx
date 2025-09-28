@@ -1,22 +1,16 @@
-import { Fragment } from "react";
-
 function ListGroup() {
-  const items = ["New York ", "San Fransico", "Tokoyo", "London", "Paris"];
-
-  items.map((item) => <li></li>);
-
   return (
-    <>
-      <h1>Practicing</h1>
+    <div>
+      <h1>LIST</h1>
 
       <ul className="list-group">
-        <li className="list-group-item">First Scanrio</li>
-        <li className="list-group-item">Second Scario</li>
-        <li className="list-group-item">Third Scenario</li>
-        <li className="list-group-item">Fourth Scenario</li>
-        <li className="list-group-item">Fifth Scenario</li>
+        <li className="list-group-item">An item</li>
+        <li className="list-group-item">A second item</li>
+        <li className="list-group-item">A third item</li>
+        <li className="list-group-item">A fourth item</li>
+        <li className="list-group-item">And a fifth one</li>
       </ul>
-    </>
+    </div>
   );
 }
 
